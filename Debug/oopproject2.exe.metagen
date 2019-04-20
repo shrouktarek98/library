@@ -1,0 +1,67 @@
+  oopproject2.MyForm.resources - Embedded, ContainedInManifestFile, 
+  oopproject2.MyForm1.resources - Embedded, ContainedInManifestFile, 
+  oopproject2.MyForm2.resources - Embedded, ContainedInManifestFile, 
+  oopproject2.MyForm3.resources - Embedded, ContainedInManifestFile, 
+  oopproject2.MyForm42.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly oopproject2, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class oopproject2.MyForm4: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    library read : Public
+    Int32 choice : Public
+Class oopproject2.MyForm2: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(library, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    library read : Public
+    Int32 choice : Public
+    Int32 order : Public
+  Methods:
+    gridbook_header(DataGridView&): PrivateScope, Public, HideBySig
+    gridbook_data(book, DataGridView&): PrivateScope, Public, HideBySig
+    gridreader_header(DataGridView&): PrivateScope, Public, HideBySig
+    gridreader_data(reader, DataGridView&): PrivateScope, Public, HideBySig
+Class oopproject2.MyForm1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(library, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    library read : Public
+    Int32 choise : Public
+Class oopproject2.MyForm3: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(reader ByRef, library ByRef): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    library read : Public
+    reader READER : Public
+  Methods:
+    gridbook_header(DataGridView&): PrivateScope, Public, HideBySig
+    gridbook_data(book, DataGridView&): PrivateScope, Public, HideBySig
+Class oopproject2.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(library): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    library read : Public
+  Methods:
+    load_file_requestdic(Dictionary`2&): PrivateScope, Public, HideBySig
+    load_file_bookdic(Dictionary`2&): PrivateScope, Public, HideBySig
+    load_file_readerdic(Dictionary`2&): PrivateScope, Public, HideBySig

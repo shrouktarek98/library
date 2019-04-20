@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <Book>
+    <ISBN>1</ISBN>
+    <title>oliver</title>
+    <location>oo</location>
+    <no_of_copies>8</no_of_copies>
+    <price>20</price>
+    <genre>oo</genre>
+    <author>oo</author>
+    <no_of_borrow>0</no_of_borrow>
+  </Book>
+  <Book>
+    <ISBN>2</ISBN>
+    <title>guliver</title>
+    <location>gg</location>
+    <no_of_copies>8</no_of_copies>
+    <price>25</price>
+    <genre>gg</genre>
+    <author>gg</author>
+    <no_of_borrow>0</no_of_borrow>
+  </Book>
+</root>

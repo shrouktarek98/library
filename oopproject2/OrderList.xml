@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <OrderList>
+    <request>
+      <isbn>
+      </isbn>
+      <id>1</id>
+      <user_id>2</user_id>
+      <checkrequest>1</checkrequest>
+      <requestdate>2/2/2010</requestdate>
+      <duedata>
+      </duedata>
+    </request>
+  </OrderList>
+</root>
